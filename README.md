@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔐 Auth System – Next.js & MongoDB
 
-## Getting Started
+A modern authentication system built using **Next.js** and **MongoDB** to understand and implement **real-world auth flows** with clean architecture and security best practices.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 About the Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Auth System** is a learning-focused yet production-inspired project that demonstrates how authentication works behind the scenes in modern web applications.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Instead of building just a basic login/signup form, this project focuses on:
+- secure user authentication
+- JWT-based authorization
+- backend & frontend integration
+- environment-based security
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The main goal is to build a **strong conceptual foundation of authentication systems** used in real-world products.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- User Signup & Login
+- Secure password hashing using **bcrypt**
+- JWT (JSON Web Tokens) based authentication
+- Token generation & verification
+- API routes using Next.js App Router
+- MongoDB for persistent user storage
+- Proper server-side validation
+- Environment variable based security
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Frontend
+- Next.js (App Router)
+- React
+- Tailwind CSS
+- Formik
+- Yup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Backend
+- Next.js API Routes
+- MongoDB
+- JWT (jsonwebtoken)
+- bcrypt
+
+---
+
+## 🧠 Learnings & Concepts Covered
+
+- How authentication works in modern applications
+- Difference between client-side & server-side authentication
+- Secure password handling and hashing
+- JWT structure, signing & verification
+- Role of environment variables in security
+- Writing clean and scalable auth logic
+
+---
+
+## 🔐 Environment Variables
+
+This project uses environment variables to keep sensitive credentials secure.
+
+MONGODB_URI=
+TOKEN_SECRET=
+
+
+⚠️ Never commit your `.env` file to public repositories.
+
+---
+
+## 🎯 Purpose of This Project
+
+This project is built to:
+- Practice real-world authentication flows
+- Strengthen backend concepts
+- Understand JWT-based auth deeply
+- Build portfolio-ready projects
+
+The approach follows **industry-aligned best practices** instead of shortcuts.
+
+---
+
+## 🙏 Acknowledgements
+
+Thanks to my mentors and instructors for their continuous guidance and support throughout my learning journey.
+
+---
+
+## 📬 Feedback & Contributions
+
+Suggestions and improvements are always welcome.  
+Feel free to open an issue or submit a pull request.
+
+---
+
+⭐ If you find this project useful, consider giving it a star!
